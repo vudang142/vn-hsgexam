@@ -1,0 +1,99 @@
+# =====================================================
+# VN-HSGExam — .gitignore
+# =====================================================
+
+# --- Raw exam materials (KHÔNG push vì lý do bản quyền) ---
+# Backup raw .txt files riêng trên Google Drive
+data/raw/
+raw/
+ques_*.txt
+ans_*.txt
+
+# --- Secrets (CỰC KỲ QUAN TRỌNG, không bao giờ commit) ---
+.env
+.env.*
+*.key
+api_keys.txt
+secrets/
+credentials.json
+*_credentials.*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Jupyter / Colab ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.colab/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Testing / Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- ML / Data files (commit có chọn lọc) ---
+# Logs từ inference: có thể rất lớn, không push toàn bộ
+results/raw_responses/*.jsonl
+*.log
+
+# Model weights: KHÔNG push (quá lớn)
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+models/
+checkpoints/
+
+# Cache HuggingFace
+.cache/
+hf_cache/
+
+# --- Files dữ liệu lớn (>50MB GitHub sẽ warn) ---
+# Comment dòng dưới nếu bạn MUỐN commit JSON dataset
+# *.json
+
+# --- OS files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+ehthumbs.db
+desktop.ini

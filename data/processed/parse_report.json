@@ -1,0 +1,428 @@
+{
+  "input_dir": "raw",
+  "files": {
+    "history_2019": {
+      "parsed_count": 40,
+      "usable_count": 40,
+      "excluded_count": 0,
+      "excluded_tags": {},
+      "issues": []
+    },
+    "history_2020": {
+      "parsed_count": 40,
+      "usable_count": 40,
+      "excluded_count": 0,
+      "excluded_tags": {},
+      "issues": []
+    },
+    "history_2021": {
+      "parsed_count": 40,
+      "usable_count": 40,
+      "excluded_count": 0,
+      "excluded_tags": {},
+      "issues": []
+    },
+    "history_2022": {
+      "parsed_count": 40,
+      "usable_count": 40,
+      "excluded_count": 0,
+      "excluded_tags": {},
+      "issues": []
+    },
+    "history_2023": {
+      "parsed_count": 40,
+      "usable_count": 40,
+      "excluded_count": 0,
+      "excluded_tags": {},
+      "issues": []
+    },
+    "history_2024": {
+      "parsed_count": 40,
+      "usable_count": 40,
+      "excluded_count": 0,
+      "excluded_tags": {},
+      "issues": []
+    },
+    "geography_2019": {
+      "parsed_count": 40,
+      "usable_count": 23,
+      "excluded_count": 17,
+      "excluded_tags": {
+        "ATLAS": 14,
+        "BẢNG": 2,
+        "ĐỒ THỊ": 1
+      },
+      "issues": []
+    },
+    "geography_2020": {
+      "parsed_count": 40,
+      "usable_count": 22,
+      "excluded_count": 18,
+      "excluded_tags": {
+        "ATLAS": 14,
+        "ĐỒ THỊ": 2,
+        "BẢNG": 2
+      },
+      "issues": []
+    },
+    "geography_2021": {
+      "parsed_count": 40,
+      "usable_count": 21,
+      "excluded_count": 19,
+      "excluded_tags": {
+        "ATLAS": 15,
+        "BẢNG": 2,
+        "ĐỒ THỊ": 2
+      },
+      "issues": []
+    },
+    "geography_2022": {
+      "parsed_count": 40,
+      "usable_count": 21,
+      "excluded_count": 19,
+      "excluded_tags": {
+        "ATLAS": 15,
+        "ĐỒ THỊ": 2,
+        "BẢNG": 2
+      },
+      "issues": []
+    },
+    "geography_2023": {
+      "parsed_count": 40,
+      "usable_count": 21,
+      "excluded_count": 19,
+      "excluded_tags": {
+        "ATLAS": 15,
+        "BẢNG": 2,
+        "ĐỒ THỊ": 2
+      },
+      "issues": []
+    },
+    "geography_2024": {
+      "parsed_count": 40,
+      "usable_count": 21,
+      "excluded_count": 19,
+      "excluded_tags": {
+        "ĐỒ THỊ": 2,
+        "ATLAS": 15,
+        "BẢNG": 2
+      },
+      "issues": []
+    },
+    "civics_2019": {
+      "parsed_count": 40,
+      "usable_count": 40,
+      "excluded_count": 0,
+      "excluded_tags": {},
+      "issues": []
+    },
+    "civics_2020": {
+      "parsed_count": 40,
+      "usable_count": 40,
+      "excluded_count": 0,
+      "excluded_tags": {},
+      "issues": []
+    },
+    "civics_2021": {
+      "parsed_count": 40,
+      "usable_count": 40,
+      "excluded_count": 0,
+      "excluded_tags": {},
+      "issues": []
+    },
+    "civics_2022": {
+      "parsed_count": 40,
+      "usable_count": 40,
+      "excluded_count": 0,
+      "excluded_tags": {},
+      "issues": []
+    },
+    "civics_2023": {
+      "parsed_count": 40,
+      "usable_count": 40,
+      "excluded_count": 0,
+      "excluded_tags": {},
+      "issues": []
+    },
+    "civics_2024": {
+      "parsed_count": 40,
+      "usable_count": 40,
+      "excluded_count": 0,
+      "excluded_tags": {},
+      "issues": []
+    },
+    "biology_2019": {
+      "parsed_count": 40,
+      "usable_count": 34,
+      "excluded_count": 6,
+      "excluded_tags": {
+        "BẢNG": 3,
+        "ĐỒ THỊ": 1,
+        "HÌNH": 1,
+        "PHẢ HỆ": 1
+      },
+      "issues": []
+    },
+    "biology_2020": {
+      "parsed_count": 40,
+      "usable_count": 38,
+      "excluded_count": 2,
+      "excluded_tags": {
+        "BẢNG": 1,
+        "PHẢ HỆ": 1
+      },
+      "issues": []
+    },
+    "biology_2021": {
+      "parsed_count": 40,
+      "usable_count": 35,
+      "excluded_count": 5,
+      "excluded_tags": {
+        "ĐỒ THỊ": 1,
+        "HÌNH": 3,
+        "BẢNG": 1
+      },
+      "issues": []
+    },
+    "biology_2022": {
+      "parsed_count": 40,
+      "usable_count": 37,
+      "excluded_count": 3,
+      "excluded_tags": {
+        "HÌNH": 2,
+        "ĐỒ THỊ": 1
+      },
+      "issues": []
+    },
+    "biology_2023": {
+      "parsed_count": 40,
+      "usable_count": 33,
+      "excluded_count": 7,
+      "excluded_tags": {
+        "ĐỒ THỊ": 2,
+        "BẢNG": 2,
+        "HÌNH": 2,
+        "PHẢ HỆ": 1
+      },
+      "issues": []
+    },
+    "biology_2024": {
+      "parsed_count": 40,
+      "usable_count": 32,
+      "excluded_count": 8,
+      "excluded_tags": {
+        "BẢNG": 2,
+        "HÌNH": 2,
+        "ĐỒ THỊ": 3,
+        "PHẢ HỆ": 1
+      },
+      "issues": []
+    }
+  },
+  "missing": [],
+  "overall": {
+    "by_subject": {
+      "history": {
+        "total": 240,
+        "usable": 240,
+        "excluded": 0,
+        "difficulty": {
+          "easy": 120,
+          "medium": 60,
+          "hard": 60
+        },
+        "answer_dist": {
+          "C": 69,
+          "D": 54,
+          "B": 65,
+          "A": 52
+        },
+        "excluded_tags": {}
+      },
+      "geography": {
+        "total": 240,
+        "usable": 129,
+        "excluded": 111,
+        "difficulty": {
+          "easy": 30,
+          "medium": 51,
+          "hard": 48
+        },
+        "answer_dist": {
+          "C": 38,
+          "A": 34,
+          "D": 31,
+          "B": 26
+        },
+        "excluded_tags": {
+          "ATLAS": 88,
+          "BẢNG": 12,
+          "ĐỒ THỊ": 11
+        }
+      },
+      "civics": {
+        "total": 240,
+        "usable": 240,
+        "excluded": 0,
+        "difficulty": {
+          "easy": 120,
+          "medium": 60,
+          "hard": 60
+        },
+        "answer_dist": {
+          "C": 62,
+          "D": 65,
+          "A": 66,
+          "B": 47
+        },
+        "excluded_tags": {}
+      },
+      "biology": {
+        "total": 240,
+        "usable": 209,
+        "excluded": 31,
+        "difficulty": {
+          "easy": 119,
+          "medium": 56,
+          "hard": 34
+        },
+        "answer_dist": {
+          "B": 58,
+          "C": 53,
+          "A": 52,
+          "D": 46
+        },
+        "excluded_tags": {
+          "BẢNG": 9,
+          "ĐỒ THỊ": 8,
+          "HÌNH": 10,
+          "PHẢ HỆ": 4
+        }
+      }
+    },
+    "by_year": {
+      "2019": {
+        "total": 160,
+        "usable": 137
+      },
+      "2020": {
+        "total": 160,
+        "usable": 140
+      },
+      "2021": {
+        "total": 160,
+        "usable": 136
+      },
+      "2022": {
+        "total": 160,
+        "usable": 138
+      },
+      "2023": {
+        "total": 160,
+        "usable": 134
+      },
+      "2024": {
+        "total": 160,
+        "usable": 133
+      }
+    },
+    "by_subject_year": {
+      "history_2019": {
+        "total": 40,
+        "usable": 40
+      },
+      "history_2020": {
+        "total": 40,
+        "usable": 40
+      },
+      "history_2021": {
+        "total": 40,
+        "usable": 40
+      },
+      "history_2022": {
+        "total": 40,
+        "usable": 40
+      },
+      "history_2023": {
+        "total": 40,
+        "usable": 40
+      },
+      "history_2024": {
+        "total": 40,
+        "usable": 40
+      },
+      "geography_2019": {
+        "total": 40,
+        "usable": 23
+      },
+      "geography_2020": {
+        "total": 40,
+        "usable": 22
+      },
+      "geography_2021": {
+        "total": 40,
+        "usable": 21
+      },
+      "geography_2022": {
+        "total": 40,
+        "usable": 21
+      },
+      "geography_2023": {
+        "total": 40,
+        "usable": 21
+      },
+      "geography_2024": {
+        "total": 40,
+        "usable": 21
+      },
+      "civics_2019": {
+        "total": 40,
+        "usable": 40
+      },
+      "civics_2020": {
+        "total": 40,
+        "usable": 40
+      },
+      "civics_2021": {
+        "total": 40,
+        "usable": 40
+      },
+      "civics_2022": {
+        "total": 40,
+        "usable": 40
+      },
+      "civics_2023": {
+        "total": 40,
+        "usable": 40
+      },
+      "civics_2024": {
+        "total": 40,
+        "usable": 40
+      },
+      "biology_2019": {
+        "total": 40,
+        "usable": 34
+      },
+      "biology_2020": {
+        "total": 40,
+        "usable": 38
+      },
+      "biology_2021": {
+        "total": 40,
+        "usable": 35
+      },
+      "biology_2022": {
+        "total": 40,
+        "usable": 37
+      },
+      "biology_2023": {
+        "total": 40,
+        "usable": 33
+      },
+      "biology_2024": {
+        "total": 40,
+        "usable": 32
+      }
+    }
+  }
+}
