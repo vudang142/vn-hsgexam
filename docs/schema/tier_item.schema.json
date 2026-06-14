@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/vudang142/vn-hsgexam/schema/tier_item.schema.json",
+  "title": "VN-HSGExam Tier Item",
+  "description": "Schema for a single MCQ item in VN-HSGExam Tier 1 or Tier 2.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "question_id",
+    "subject",
+    "year",
+    "question_number",
+    "stem",
+    "choices",
+    "answer",
+    "is_usable",
+    "exclusion_tag",
+    "difficulty",
+    "metadata"
+  ],
+  "properties": {
+    "question_id": {
+      "type": "string",
+      "description": "Unique identifier. Format: {subject}_{year}_q{number}. Number is 1-120.",
+      "pattern": "^(history|geography|civics|biology)_(2019|2020|2021|2022|2023|2024)_q([1-9]|[1-9][0-9]|1[01][0-9]|120)$"
+    },
+    "subject": {
+      "type": "string",
+      "enum": ["history", "geography", "civics", "biology"]
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 2019,
+      "maximum": 2024
+    },
+    "question_number": {
+      "type": "integer",
+      "description": "Question number 1-120. Grouped by subject within a year.",
+      "minimum": 1,
+      "maximum": 120
+    },
+    "stem": {
+      "type": "string",
+      "description": "Question stem in Vietnamese (UTF-8, diacritics preserved).",
+      "minLength": 1
+    },
+    "choices": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["A", "B", "C", "D"],
+      "properties": {
+        "A": { "type": "string", "minLength": 1 },
+        "B": { "type": "string", "minLength": 1 },
+        "C": { "type": "string", "minLength": 1 },
+        "D": { "type": "string", "minLength": 1 }
+      }
+    },
+    "answer": {
+      "type": "string",
+      "enum": ["A", "B", "C", "D"]
+    },
+    "is_usable": {
+      "type": "boolean"
+    },
+    "exclusion_tag": {
+      "type": ["string", "null"]
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard"]
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["stem_char_length", "stem_line_count"],
+      "properties": {
+        "stem_char_length": { "type": "integer", "minimum": 1 },
+        "stem_line_count": { "type": "integer", "minimum": 1 }
+      }
+    }
+  }
+}

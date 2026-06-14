@@ -1,0 +1,58 @@
+=== Overall Accuracy Pivot ===
+\begin{tabular}{lrrrr}
+\toprule
+model & cot & few-shot & self-cons & zero-shot \\
+\midrule
+GPT-OSS 120B & 59.300000 & 61.200000 & 59.700000 & 60.900000 \\
+Llama 3.1 8B & 53.700000 & 54.500000 & 53.300000 & 50.400000 \\
+Qwen3 235B & 68.200000 & 67.100000 & 68.400000 & 68.000000 \\
+Vistral 7B & 48.100000 & 52.500000 & 44.800000 & 46.100000 \\
+\bottomrule
+\end{tabular}
+
+
+=== Best Subject Accuracy ===
+\begin{tabular}{lrrrr}
+\toprule
+model & biology & civics & geography & history \\
+\midrule
+GPT-OSS 120B & 68.200000 & 42.600000 & 67.400000 & 69.000000 \\
+Llama 3.1 8B & 48.800000 & 41.100000 & 64.300000 & 65.900000 \\
+Qwen3 235B & 72.100000 & 44.200000 & 79.100000 & 82.200000 \\
+Vistral 7B & 47.300000 & 38.000000 & 65.900000 & 66.700000 \\
+\bottomrule
+\end{tabular}
+
+
+=== Difficulty Best Strategy ===
+\begin{tabular}{lrrr}
+\toprule
+model & easy & hard & medium \\
+\midrule
+GPT-OSS 120B & 68.200000 & 42.100000 & 67.300000 \\
+Llama 3.1 8B & 58.400000 & 40.600000 & 60.700000 \\
+Qwen3 235B & 73.800000 & 54.100000 & 72.700000 \\
+Vistral 7B & 61.400000 & 34.600000 & 54.700000 \\
+\bottomrule
+\end{tabular}
+
+
+=== McNemar Tests ===
+\begin{tabular}{llrrrrrr}
+\toprule
+model & comparison & both_correct & a_correct_b_wrong & a_wrong_b_correct & both_wrong & p_value & significant_0.05 \\
+\midrule
+GPT-OSS 120B & zero-shot vs few-shot & 288 & 26 & 28 & 174 & 0.891923 & False \\
+GPT-OSS 120B & zero-shot vs cot & 281 & 33 & 25 & 177 & 0.358143 & False \\
+GPT-OSS 120B & few-shot vs cot & 278 & 38 & 28 & 172 & 0.267812 & False \\
+Llama 3.1 8B & zero-shot vs few-shot & 211 & 49 & 70 & 186 & 0.066291 & False \\
+Llama 3.1 8B & zero-shot vs cot & 210 & 50 & 67 & 189 & 0.138753 & False \\
+Llama 3.1 8B & few-shot vs cot & 226 & 55 & 51 & 184 & 0.770919 & False \\
+Qwen3 235B & zero-shot vs few-shot & 336 & 15 & 10 & 155 & 0.424356 & False \\
+Qwen3 235B & zero-shot vs cot & 330 & 21 & 22 & 143 & 1.000000 & False \\
+Qwen3 235B & few-shot vs cot & 330 & 16 & 22 & 148 & 0.417692 & False \\
+Vistral 7B & zero-shot vs few-shot & 195 & 43 & 76 & 202 & 0.003183 & True \\
+Vistral 7B & zero-shot vs cot & 178 & 60 & 70 & 208 & 0.430021 & False \\
+Vistral 7B & few-shot vs cot & 199 & 72 & 49 & 196 & 0.045052 & True \\
+\bottomrule
+\end{tabular}

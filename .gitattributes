@@ -1,0 +1,59 @@
+# .gitattributes — enforce consistent line endings across platforms
+#
+# This file ensures that:
+#   - Text files (Markdown, Python, JSON, YAML, CSV, TXT, etc.) use LF
+#     line endings in the repository, regardless of the contributor's OS.
+#   - Binary files (images, PDFs, etc.) are not touched.
+#   - Shell scripts and Python files keep executable bit on Linux/macOS.
+#
+# This eliminates the "LF will be replaced by CRLF" warning on Windows
+# and prevents diffs that consist only of line-ending changes.
+
+# Default: detect text files automatically and normalize to LF on commit
+*         text=auto eol=lf
+
+# Specific overrides for common file types (force text + LF)
+*.md      text eol=lf
+*.txt     text eol=lf
+*.csv     text eol=lf
+*.json    text eol=lf
+*.jsonl   text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.toml    text eol=lf
+*.py      text eol=lf
+*.ipynb   text eol=lf
+*.sh      text eol=lf
+*.bat     text eol=crlf
+*.ps1     text eol=crlf
+*.cff     text eol=lf
+*.cfg     text eol=lf
+*.ini     text eol=lf
+
+# Documentation files
+LICENSE*  text eol=lf
+README*   text eol=lf
+CHANGELOG* text eol=lf
+CITATION* text eol=lf
+DATASETS* text eol=lf
+SCHEMA*   text eol=lf
+
+# Binary files (no conversion)
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.pdf     binary
+*.docx    binary
+*.doc     binary
+*.zip     binary
+*.tar     binary
+*.gz      binary
+*.bin     binary
+*.safetensors binary
+*.pt      binary
+*.pth     binary
+
+# Preserve executable bit (only meaningful on Linux/macOS)
+*.sh      text eol=lf executable
+*.py      text eol=lf diff=python

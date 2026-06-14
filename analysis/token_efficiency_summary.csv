@@ -1,0 +1,17 @@
+﻿model,strategy,reasoning_tokens
+GPT-OSS 120B,cot,364.4
+GPT-OSS 120B,few-shot,393.5
+GPT-OSS 120B,self-cons,363.8
+GPT-OSS 120B,zero-shot,287.9
+Llama 3.1 8B,cot,0.0
+Llama 3.1 8B,few-shot,0.0
+Llama 3.1 8B,self-cons,0.0
+Llama 3.1 8B,zero-shot,0.0
+Qwen3 235B,cot,0.0
+Qwen3 235B,few-shot,0.0
+Qwen3 235B,self-cons,0.0
+Qwen3 235B,zero-shot,0.0
+Vistral 7B,cot,0.0
+Vistral 7B,few-shot,0.0
+Vistral 7B,self-cons,0.0
+Vistral 7B,zero-shot,0.0

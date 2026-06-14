@@ -1,0 +1,13 @@
+﻿model,comparison,both_correct,a_correct_b_wrong,a_wrong_b_correct,both_wrong,p_value,significant_0.05
+GPT-OSS 120B,zero-shot vs few-shot,288,26,28,174,0.8919231511047488,False
+GPT-OSS 120B,zero-shot vs cot,281,33,25,177,0.358143301806138,False
+GPT-OSS 120B,few-shot vs cot,278,38,28,172,0.2678116648465871,False
+Llama 3.1 8B,zero-shot vs few-shot,211,49,70,186,0.06629133125279607,False
+Llama 3.1 8B,zero-shot vs cot,210,50,67,189,0.13875316894302603,False
+Llama 3.1 8B,few-shot vs cot,226,55,51,184,0.7709189909371141,False
+Qwen3 235B,zero-shot vs few-shot,336,15,10,155,0.42435622215270996,False
+Qwen3 235B,zero-shot vs cot,330,21,22,143,1.0,False
+Qwen3 235B,few-shot vs cot,330,16,22,148,0.417692190836533,False
+Vistral 7B,zero-shot vs few-shot,195,43,76,202,0.0031831844482176595,True
+Vistral 7B,zero-shot vs cot,178,60,70,208,0.4300208839753419,False
+Vistral 7B,few-shot vs cot,199,72,49,196,0.04505173972573588,True

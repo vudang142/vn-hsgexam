@@ -1,0 +1,17 @@
+﻿model,strategy,accuracy,count
+GPT-OSS 120B,cot,59.3,516
+GPT-OSS 120B,few-shot,61.2,516
+GPT-OSS 120B,self-cons,59.7,516
+GPT-OSS 120B,zero-shot,60.9,516
+Llama 3.1 8B,cot,53.7,516
+Llama 3.1 8B,few-shot,54.5,516
+Llama 3.1 8B,self-cons,53.3,516
+Llama 3.1 8B,zero-shot,50.4,516
+Qwen3 235B,cot,68.2,516
+Qwen3 235B,few-shot,67.1,516
+Qwen3 235B,self-cons,68.4,516
+Qwen3 235B,zero-shot,68.0,516
+Vistral 7B,cot,48.1,516
+Vistral 7B,few-shot,52.5,516
+Vistral 7B,self-cons,44.8,516
+Vistral 7B,zero-shot,46.1,516

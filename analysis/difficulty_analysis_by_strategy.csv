@@ -1,0 +1,17 @@
+﻿model,strategy,easy,hard,medium
+GPT-OSS 120B,cot,67.0,36.8,67.3
+GPT-OSS 120B,few-shot,68.2,42.1,67.3
+GPT-OSS 120B,self-cons,67.0,37.6,68.0
+GPT-OSS 120B,zero-shot,69.5,39.1,66.7
+Llama 3.1 8B,cot,58.4,45.9,53.3
+Llama 3.1 8B,few-shot,58.4,40.6,60.7
+Llama 3.1 8B,self-cons,58.4,44.4,53.3
+Llama 3.1 8B,zero-shot,53.2,48.9,47.3
+Qwen3 235B,cot,73.8,53.4,72.7
+Qwen3 235B,few-shot,71.7,51.1,74.0
+Qwen3 235B,self-cons,73.8,54.1,72.7
+Qwen3 235B,zero-shot,72.5,53.4,74.0
+Vistral 7B,cot,52.4,33.8,54.0
+Vistral 7B,few-shot,61.4,34.6,54.7
+Vistral 7B,self-cons,50.2,32.3,47.3
+Vistral 7B,zero-shot,54.5,33.1,44.7

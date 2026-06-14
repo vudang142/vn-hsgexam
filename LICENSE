@@ -1,0 +1,36 @@
+VN-HSGExam is dual-licensed:
+
+================================================================================
+1) DATASET (all JSON / JSONL files under data/, plus any document files under
+   docs/ that are derived from the exam content):
+
+   Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+   See LICENSE-DATA for the full license text, or visit:
+   https://creativecommons.org/licenses/by/4.0/
+
+   You are free to:
+     - Share — copy and redistribute the material in any medium or format
+     - Adapt — remix, transform, and build upon the material for any purpose,
+               even commercially
+
+   Under the following terms:
+     - Attribution — You must give appropriate credit, provide a link to the
+                    license, and indicate if changes were made. You may do so
+                    in any reasonable manner, but not in any way that suggests
+                    the licensor endorses you or your use.
+
+================================================================================
+2) SOURCE CODE (all files under src/, notebooks/, examples/, and any other
+   code/scripts in this repository, except for the dataset files above):
+
+   Licensed under the MIT License.
+   See LICENSE-CODE for the full license text, or visit:
+   https://opensource.org/licenses/MIT
+
+================================================================================
+
+The exam content itself is sourced from official Vietnamese Ministry of
+Education and Training (MoET) publications, released publicly after each
+examination cycle. The repository redistributes the items in structured
+(parsed) form solely for non-commercial academic research use, with full
+attribution to MoET as the original source.

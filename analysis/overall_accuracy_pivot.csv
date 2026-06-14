@@ -1,0 +1,5 @@
+﻿model,cot,few-shot,self-cons,zero-shot
+GPT-OSS 120B,59.3,61.2,59.7,60.9
+Llama 3.1 8B,53.7,54.5,53.3,50.4
+Qwen3 235B,68.2,67.1,68.4,68.0
+Vistral 7B,48.1,52.5,44.8,46.1

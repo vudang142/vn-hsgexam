@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite both the paper and the dataset as below."
+title: "VN-HSGExam: A Vietnamese High School Graduation Examination Benchmark for LLM Evaluation"
+version: 1.0.0
+date-released: 2026-01-15
+license:
+  - "CC-BY-4.0"
+  - "MIT"
+type: dataset
+url: "https://github.com/vudang142/vn-hsgexam"
+repository-code: "https://github.com/vudang142/vn-hsgexam"
+doi: 10.5281/zenodo.XXXXXXX
+keywords:
+  - "Vietnamese NLP"
+  - "Large Language Models"
+  - "Benchmark"
+  - "Multiple-Choice Questions"
+  - "Educational AI"
+  - "Prompting Strategies"
+  - "Open-Weight Models"
+authors:
+  - family-names: "Anonymous"
+    given-names: "Author"
+    affiliation: "Anonymous Institution"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+contact:
+  - family-names: "Anonymous"
+    email: "anonymous@example.com"
+references:
+  - type: article
+    title: "Evaluating Open-Weight Language Models on Vietnamese High School Knowledge: Effects of Scale, Specialization, and Prompting"
+    authors:
+      - family-names: "Anonymous"
+    journal: "Proceedings of the International Conference on Data Science and Artificial Intelligence (ICDSAIA 2026)"
+    year: 2026
+    type: proceedings
