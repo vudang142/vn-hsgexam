@@ -210,7 +210,7 @@ Potential downstream uses include:
 **Yes.** The dataset is publicly released under **CC-BY-4.0** via:
 
 1. **GitHub:** [https://github.com/vudang142/vn-hsgexam](https://github.com/vudang142/vn-hsgexam)
-2. **Zenodo:** [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX) *(DOI placeholder; will be assigned upon first release)*
+2. **Zenodo:** [https://doi.org/10.5281/zenodo.20687385](https://doi.org/10.5281/zenodo.20687385)
 
 ### How will the dataset will be distributed?
 
@@ -219,7 +219,7 @@ Potential downstream uses include:
 
 ### When will the dataset be distributed?
 
-The dataset will be made **publicly available upon acceptance of the accompanying paper at ICDSAIA 2026** (currently under review). A pre-release version with the full dataset is available to reviewers via the supplementary materials of the submission.
+The dataset was made **publicly available** on 2026-01-15 via Zenodo with DOI `10.5281/zenodo.20687385`, accompanying the ICDSAIA 2026 submission.
 
 ### Will the dataset be updated?
 

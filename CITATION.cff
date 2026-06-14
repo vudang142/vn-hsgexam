@@ -9,7 +9,7 @@ license:
 type: dataset
 url: "https://github.com/vudang142/vn-hsgexam"
 repository-code: "https://github.com/vudang142/vn-hsgexam"
-doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.20687385
 keywords:
   - "Vietnamese NLP"
   - "Large Language Models"

@@ -3,7 +3,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/Data_License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![License: MIT](https://img.shields.io/badge/Code_License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20687385.svg)](https://doi.org/10.5281/zenodo.20687385)
 [![Status](https://img.shields.io/badge/Status-Pre--release-orange.svg)](#citation)
 
 > **Benchmark for evaluating Large Language Models on Vietnamese High School Graduation Examinations (Kỳ thi tốt nghiệp THPT Quốc gia, 2019–2024).**
@@ -247,12 +247,12 @@ If you use VN-HSGExam in your research, please cite both the paper and the datas
                Examination Benchmark for {LLM} Evaluation (v1.0)},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.XXXXXXX},
-  url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi       = {10.5281/zenodo.20687385},
+  url       = {https://doi.org/10.5281/zenodo.20687385}
 }
 ```
 
-> **Note:** Replace `XXXXXXX` with the actual Zenodo deposition ID once the first release is published. See [`CITATION.cff`](CITATION.cff) for the machine-readable version.
+> **Note:** See [`CITATION.cff`](CITATION.cff) for the machine-readable version.
 
 ---
 
